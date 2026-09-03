@@ -1,7 +1,7 @@
-/// Wires maat_khnum_core into the Maat framework.
+/// Wires khnum into the Maat framework.
 library;
 
-export 'package:maat_khnum_core/maat_khnum_core.dart';
+export 'package:khnum/khnum.dart';
 
 export 'src/commands/tailwind_command.dart';
 export 'src/commands/view_commands.dart';

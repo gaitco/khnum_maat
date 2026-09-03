@@ -1,8 +1,8 @@
-# Khnum Templates
+# Khnum for Maat
 
 <p align="center"><img src="assets/icon.svg" width="96" alt="Khnum icon"></p>
 
-Wires [maat_khnum_core](https://github.com/gaitco/maat_khnum_core) into Maat.
+Wires [khnum](https://github.com/gaitco/khnum) into Maat.
 
 ```dart
 // bootstrap/app.dart
