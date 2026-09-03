@@ -1,4 +1,4 @@
-import 'package:maat_khnum_core/maat_khnum_core.dart';
+import 'package:khnum/khnum.dart';
 import 'package:maat/maat.dart';
 
 /// Binds a [Khnum] engine built from `config('view')`:

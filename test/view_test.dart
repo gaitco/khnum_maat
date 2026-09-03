@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:maat/maat.dart';
 import 'package:maat/testing.dart';
-import 'package:maat_khnum/maat_khnum.dart';
+import 'package:khnum_maat/khnum_maat.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -25,7 +25,7 @@ void main() {
     ..writeAsStringSync(contents);
 
   setUp(() {
-    dir = Directory.systemTemp.createTempSync('maat_khnum');
+    dir = Directory.systemTemp.createTempSync('khnum_maat');
     write(
       'resources/views/hello.khnum.html',
       'Hi {{ name }} from {{ appName }}',

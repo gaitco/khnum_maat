@@ -1,7 +1,7 @@
 import 'dart:ffi';
 import 'dart:io';
 
-import 'package:maat_khnum/maat_khnum.dart';
+import 'package:khnum_maat/khnum_maat.dart';
 import 'package:path/path.dart' as p;
 import 'package:test/test.dart';
 
