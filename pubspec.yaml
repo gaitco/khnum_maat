@@ -1,0 +1,13 @@
+name: maat_khnum
+description: Wires the maat_khnum_core template engine into the Maat framework.
+version: 0.1.0
+repository: https://github.com/gaitco/maat_khnum
+environment:
+  sdk: ^3.12.0
+dependencies:
+  maat_khnum_core: ^0.1.0
+  maat: ^0.1.0
+  path: ^1.8.0
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.31.2
