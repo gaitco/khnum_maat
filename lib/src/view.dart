@@ -10,7 +10,7 @@ Future<String> renderView(
   Map<String, Object?> data = const {},
 ]) => _engine.render(name, data);
 
-/// Laravel's `view()` helper: an HTML response for the rendered template.
+/// Returns an HTML response for the rendered template.
 /// For another status wrap [renderView] yourself:
 /// `Response.html(await renderView('form', data), status: 422)`.
 Future<Response> view(

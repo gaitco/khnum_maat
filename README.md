@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/icon.svg" width="96" alt="Khnum icon"></p>
 
-Wires [khnum](https://github.com/gaitco/khnum) into Maat.
+Wires [khnum](../khnum) into Maat.
 
 ```dart
 // bootstrap/app.dart

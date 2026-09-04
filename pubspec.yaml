@@ -5,7 +5,7 @@ repository: https://github.com/gaitco/khnum_maat
 environment:
   sdk: ^3.12.0
 dependencies:
-  khnum: ^0.1.0
+  khnum: ^0.2.0
   maat: ^0.1.0
   path: ^1.8.0
 dev_dependencies:

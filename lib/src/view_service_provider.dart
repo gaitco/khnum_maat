@@ -40,9 +40,9 @@ class ViewServiceProvider extends ServiceProvider {
           : TemplateEnvironment.development,
     );
     engine.share('appName', this.app.config.get('app.name'));
-    // Templates cannot call Dart, so the framework's own helper is
-    // registered as a Khnum one: `{{ asset('css/app.css') }}`.
-    engine.helper('asset', (args) => asset(args.first?.toString() ?? ''));
+    // Expose selected Dart behavior explicitly; templates never dispatch
+    // arbitrary methods or evaluate source.
+    engine.function('asset', (args) => asset(args.first as String));
     return engine;
   }
 }
